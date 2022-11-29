@@ -1,6 +1,6 @@
 export const Payment = (props) => {
     return (
-      <div id="model" className='text-center'>
+      <div id="payment" className='text-center'>
          <div className='col-md-10 col-md-offset-1 section-title'>
           <h2>Payment</h2>
           <br/>
