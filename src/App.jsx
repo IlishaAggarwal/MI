@@ -1,13 +1,9 @@
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Vision } from "./components/vision";
-import { About } from "./components/about";
-import { Model } from "./components/model";
-import { Payment } from "./components/payment";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import JsonData from "./data/data.json";
+
+import { HomePage } from "./components/homepage";
+import { BrowserRouter as Router, Routes, Route}
+	from 'react-router-dom';
+import ProductPay from './components/productpay';
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -17,23 +13,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Vision data={landingPageData.Vision} />
-      <About data={landingPageData.About} />
-      <Model data={landingPageData.Model} />
-      <Payment data={landingPageData.Payment} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <Router>
+	<Routes>
+		<Route exact path='/' exact element={<HomePage />} />
+		<Route path='/productpay' element={<ProductPay/>} />
+	</Routes>
+	</Router>
   );
 };
 
 export default App;
+
+
