@@ -1,0 +1,11 @@
+@media screen and (max-width: 400px) {
+  #about,
+  #team,
+  #payment
+  #contact,
+  #footer ,  #vision
+  {
+    width: 111%;
+  }
+
+}
