@@ -6,11 +6,10 @@ export const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-10 col-md-offset-1 intro-text'>
-                <h1 color="white">
+                <p style={{fontSize: '60px', fontWeight: 'bold'}} color="white">
                   {props.data ? props.data.title : 'Loading'}
-                  <span></span>
-                </h1>
-                <b><p>{props.data ? props.data.paragraph : 'Loading'}</p></b>
+                </p>
+                <p style={{fontSize: '23px', fontFamily: 'revert-layer'}}>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
                   href='#vision'
                   className='btn btn-custom btn-lg page-scroll'
