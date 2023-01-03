@@ -13,7 +13,7 @@ export const Payment = (props) => {
       <div className='col-md-10 col-md-offset-1 section-title'>
         <h2>Payment</h2>
         <br />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>We are excited to offer 2 innovative products that can help you achieve your financial goals. Whether you are a beginner investor or an experienced professional, our products have something to offer for everyone. If you would like to learn more about what our products have to offer, simply click on the product links to access more information. You can find detailed descriptions, pricing, and available options for each product on their respective pages. We are confident that you will find our products to be valuable tools in your financial journey.</p>
         <div class="row">
           <div class="col-sm-6">
             <div class="card">

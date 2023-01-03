@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "MI AWAITS",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Let momentum be the driving force behind your financial success"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -18,17 +18,11 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Model": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-  "Payment": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
   "Team": [
     {
       "img": "img/team/02.jpg",
-      "name": "Kapil Goyal",
-      "job": "Advisor"
+      "name": "Kartik Aggarwal",
+      "job": "Co-founder"
     },
     {
       "img": "img/team/03.jpg",
@@ -37,8 +31,8 @@
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Kartik Aggarwal",
-      "job": "Founder"
+      "name": "Kapil Goyal",
+      "job": "Advisor"
     }
   ],
   "Contact": {
@@ -52,23 +46,23 @@
   "Vision": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Financial Empowerment",
+      "text": "To empower individuals to take control of their financial future through education and access to investment opportunities."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Personalized Investment",
+      "text": "To provide personalized investment strategies and opportunities that cater to the unique goals and risk tolerances of each individual."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Financial Equality",
+      "text": "To be a driving force in the movement towards financial equality, helping individuals from all walks of life to achieve their financial dreams."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Tech-driven Diversification",
+      "text": "To use technology to provide people with a wide range of investment options and the ability to diversify their assets, helping them to manage risk and optimize their portfolios."
     }
   ]
 }
