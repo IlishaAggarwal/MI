@@ -4,53 +4,38 @@
     "paragraph": "Let momentum be the driving force behind your financial success"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "Welcome to Elanest! We are a team of students and recent graduates who are passionate about empowering our peers to take control of their financial futures. Our company was founded out of a desire to provide comprehensive and accessible financial resources for students like ourselves. We know firsthand the unique challenges and opportunities that students face when it comes to managing their money, and we wanted to create a company that truly understands and caters to the needs of the student community.",
+
+    "paragraph2": "One of the things that sets us apart from other financial companies is our student-centric focus. We understand the unique perspective and needs of students, and we strive to provide services and resources that are tailored specifically to them."
   },
   "Team": [
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/02.png",
       "name": "Kartik Aggarwal",
       "job": "Co-founder"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/03.png",
       "name": "Ilisha Aggarwal",
       "job": "Co-founder"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/04.jpeg",
       "name": "Kapil Goyal",
       "job": "Advisor"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "kartikaggarwal@berkeley.edu"
   },
   "Vision": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-bullhorn",
       "title": "Financial Empowerment",
       "text": "To empower individuals to take control of their financial future through education and access to investment opportunities."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-university",
       "title": "Personalized Investment",
       "text": "To provide personalized investment strategies and opportunities that cater to the unique goals and risk tolerances of each individual."
     },
@@ -60,7 +45,7 @@
       "text": "To be a driving force in the movement towards financial equality, helping individuals from all walks of life to achieve their financial dreams."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa  fa-cogs",
       "title": "Tech-driven Diversification",
       "text": "To use technology to provide people with a wide range of investment options and the ability to diversify their assets, helping them to manage risk and optimize their portfolios."
     }

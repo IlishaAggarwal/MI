@@ -2,7 +2,7 @@ export const Contact = (props) => {
   return (
     <div>
       <div id='contact'>
-        <div className='container'>
+        <div className='container' style={{padding: '5px'}}>
           <div className='contact-item'>
             <h3>Contact Us</h3>
             <p>

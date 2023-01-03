@@ -141,7 +141,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 .section-title h2 {
   position: relative;
@@ -456,7 +456,7 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 160px;
 }
 #team .thumbnail {
   background: transparent;
@@ -468,7 +468,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 0px 0 60px;
+  padding: 0px 0 25px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -595,7 +595,7 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 #footer p {
   color: #888;
@@ -661,3 +661,4 @@ label {
   line-height: 24px;
   margin: 30px 0;
 }
+

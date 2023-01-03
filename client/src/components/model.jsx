@@ -1,6 +1,6 @@
 export const Model = (props) => {
     return (
-      <div id="model" className='text-center'>
+      <div id="model" className='text-center' style={{padding: "40px 0px 0px 0px"}}>
          <div className='col-md-10 col-md-offset-1 section-title'>
           <h2>Model</h2>
           <br/>
