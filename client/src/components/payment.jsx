@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 export const Payment = (props) => {
   const navigate = useNavigate();
   const navigateToPaymentPage = () => {
-    navigate('/productpay');
+   alert("pay");
   };
   return (
     <div id="payment" className='text-center'>
