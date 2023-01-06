@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export const Payment = (props) => {
   const PaymentFor15 = () => {
-    fetch("https://mi-backend.vercel.app/create-checkout-session-15", {
+    fetch("https://www.elanest.xyz/create-checkout-session-15", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +28,7 @@ export const Payment = (props) => {
 
   };
   const PaymentFor5 = () => {
-    fetch("https://mi-backend.vercel.app/create-checkout-session-5", {
+    fetch("/create-checkout-session-5", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
