@@ -12,7 +12,6 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^6.4.3",
-    "react-script-tag": "^1.1.2",
     "react-scripts": "^4.0.2",
     "smooth-scroll": "^16.1.3"
   },
