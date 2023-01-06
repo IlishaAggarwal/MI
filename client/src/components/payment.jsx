@@ -1,11 +1,55 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { useNavigate } from 'react-router-dom';
 
 export const Payment = (props) => {
-  const navigate = useNavigate();
-  const navigateToPaymentPage = () => {
-    navigate('/productpay');
+  const PaymentFor15 = () => {
+    fetch("https://mi-backend.vercel.app/create-checkout-session-15", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        items: [
+          { id: 1, quantity: 1 },
+         
+        ],
+      }),
+    })
+      .then(res => {
+        if (res.ok) return res.json()
+        return res.json().then(json => Promise.reject(json))
+      })
+      .then(({ url }) => {
+        window.location = url
+      })
+      .catch(e => {
+        console.error(e.error)
+      })
+
+  };
+  const PaymentFor5 = () => {
+    fetch("https://mi-backend.vercel.app/create-checkout-session-5", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        items: [
+          { id: 2, quantity: 1 },
+        ],
+      }),
+    })
+      .then(res => {
+        if (res.ok) return res.json()
+        return res.json().then(json => Promise.reject(json))
+      })
+      .then(({ url }) => {
+        window.location = url
+      })
+      .catch(e => {
+        console.error(e.error)
+      })
+
   };
   return (
     <div id="payment" className='text-center'>
@@ -23,10 +67,18 @@ export const Payment = (props) => {
               </div>
               <div class="card-body">
                 <Card.Body>
+<<<<<<< HEAD
                   <Card.Title>Backtested Data for 15 Stocks</Card.Title>
                   <Card.Text>
                   Set of 15 stocks with Monthly Rebalancing                  </Card.Text>
                   <Button variant="primary" onClick={navigateToPaymentPage}>Buy this Product</Button>
+=======
+                  <Card.Title>My 15 Stocks</Card.Title>
+                  <Card.Text>
+                    Our top performing 15 stocks
+                  </Card.Text>
+                  <Button variant="primary" onClick={PaymentFor15}>Buy this Product</Button>
+>>>>>>> 3e60d559297ed6ac0f6069cd004f1252c2def73f
                 </Card.Body>
               </div>
             </div>
@@ -38,11 +90,17 @@ export const Payment = (props) => {
               </div>
               <div class="card-body">
                 <Card.Body>
+<<<<<<< HEAD
                   <Card.Title>Backtested Data for 5 Stocks</Card.Title>
                   <Card.Text>
                   Set of 5 stocks with Monthly Rebalancing
+=======
+                  <Card.Title>My 5 Stocks</Card.Title>
+                  <Card.Text>
+                    Our top performing 5 stocks
+>>>>>>> 3e60d559297ed6ac0f6069cd004f1252c2def73f
                   </Card.Text>
-                  <Button variant="primary" onClick={navigateToPaymentPage}>Buy this Product</Button>
+                  <Button variant="primary" onClick={PaymentFor5}>Buy this Product</Button>
                 </Card.Body>
               </div>
             </div>
