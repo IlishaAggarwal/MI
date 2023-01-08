@@ -13,11 +13,6 @@ app.use(
   })
 )
 
-
-
-
-
-
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY)
 
 const storeItems = new Map([
