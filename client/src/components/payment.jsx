@@ -61,14 +61,15 @@ export const Payment = (props) => {
         <div class="row">
           <div class="col-sm-6">
             <div class="card">
-              <div class="embed-responsive embed-responsive-16by9">
-                <Card.Img variant="top" src="../../public/img/card.jpeg" />
+              <div >
+              
+                <Card.Img variant="top" src="img/15stocks.png"/>
               </div>
               <div class="card-body">
                 <Card.Body>
-                  <Card.Title>My 15 Stocks</Card.Title>
+                  <Card.Title>Backtested Data for 15 Stocks</Card.Title>
                   <Card.Text>
-                    Our top performing 15 stocks
+                  Set of 15 stocks with Monthly Rebalancing
                   </Card.Text>
                   <Button variant="primary" onClick={PaymentFor15}>Buy this Product</Button>
                 </Card.Body>
@@ -77,14 +78,14 @@ export const Payment = (props) => {
           </div>
           <div class="col-sm-6">
             <div class="card">
-              <div class="embed-responsive embed-responsive-16by9">
-                <Card.Img variant="top" src="../../public/img/card.jpeg" />
+              <div>
+                <Card.Img variant="top" src="img/5stocks.png" />
               </div>
               <div class="card-body">
                 <Card.Body>
-                  <Card.Title>My 5 Stocks</Card.Title>
+                  <Card.Title>Backtested Data for 5 Stocks</Card.Title>
                   <Card.Text>
-                    Our top performing 5 stocks
+                  Set of 5 stocks with Monthly Rebalancing
                   </Card.Text>
                   <Button variant="primary" onClick={PaymentFor5}>Buy this Product</Button>
                 </Card.Body>

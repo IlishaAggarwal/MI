@@ -1,6 +1,6 @@
 export const Vision = (props) => {
   return (
-    <div id='vision' className='text-center' style={{padding: "0px 0px 30px 0px"}}>
+    <div id='vision' className='text-center' style={{padding: "0px 0px 20px 0px"}}>
       <div className='container'>
        
         <div id='visiontitle' className='col-md-10 col-md-offset-1 section-title'>
