@@ -12,7 +12,10 @@ app.use(
         allowedHeaders: 'Content-Type'
   })
 )
-
+app.use((req,res,next)=> {
+  res.setHeader('Content-Type','application/json')
+  next();
+});
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY)
 
 const storeItems = new Map([
