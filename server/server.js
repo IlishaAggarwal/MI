@@ -7,9 +7,16 @@ app.use(express.json())
 app.use(express.static('public'));
 app.use(
   cors({
-    origin: "https://www.elanest.xyz",
+    origin: '*',
+        methods: 'GET,PUT,DELETE,POST,PATCH',
+        allowedHeaders: 'Content-Type'
   })
 )
+
+
+
+
+
 
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY)
 
