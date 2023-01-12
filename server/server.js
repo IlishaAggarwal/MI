@@ -78,7 +78,9 @@ app.post("/create-checkout-session-5", async (req, res) => {
     res.status(500).json({ error: e.message })
   }
 })
+
 app.get('/ping',(req,res)=>{
   res.send("helloworld");
 })
+
 app.listen(3001)
