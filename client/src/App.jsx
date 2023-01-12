@@ -11,9 +11,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-let cors = require('cors')
-app.use(cors())
-
 const App = () => {
 
   return (
