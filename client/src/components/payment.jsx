@@ -16,6 +16,7 @@ export const Payment = (props) => {
       }),
     })
       .then(res => {
+        console.log(res);
         if (res.ok) return res.json()
         return res.json().then(json => Promise.reject(json))
       })
@@ -23,7 +24,6 @@ export const Payment = (props) => {
         window.location = url
       })
       .catch(e => {
-        console.log(res);
         console.error(e.error)
       })
 
