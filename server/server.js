@@ -24,6 +24,12 @@ app.all("/*", function (req,res,next){
   }
   
 });
+
+app.get('/ping',(req,res)=>{
+  res.send("helloworld");
+})
+
+
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE_KEY)
 
 const storeItems = new Map([
@@ -85,10 +91,6 @@ app.post("/create-checkout-session-5", async (req, res) => {
     console.log(e)
     res.status(500).json({ error: e.message })
   }
-})
-
-app.get('/ping',(req,res)=>{
-  res.send("helloworld");
 })
 
 app.listen(3001)
