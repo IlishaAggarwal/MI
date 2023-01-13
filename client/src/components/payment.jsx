@@ -16,7 +16,7 @@ export const Payment = (props) => {
       }),
     })
       .then(res => {
-        console.log(res);
+        console.log(res.json);
         if (res.ok) return res.json()
         return res.json().then(json => Promise.reject(json))
       })
