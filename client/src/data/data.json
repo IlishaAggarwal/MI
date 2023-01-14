@@ -10,23 +10,23 @@
   },
   "Team": [
     {
-      "img": "",
-      "name": "k",
+      "img": "img/team/02.jpg",
+      "name": "Kartik Aggarwal",
       "job": "Co-founder"
     },
     {
-      "img": "",
-      "name": "I",
+      "img": "img/team/03.png",
+      "name": "Ilisha Aggarwal",
       "job": "Co-founder"
     },
     {
-      "img": "",
-      "name": "",
+      "img": "img/team/04.jpeg",
+      "name": "Kapil Goyal",
       "job": "Advisor"
     }
   ],
   "Contact": {
-    "email": "k"
+    "email": "kartikaggarwal@berkeley.edu"
   },
   "Vision": [
     {

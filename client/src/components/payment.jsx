@@ -28,7 +28,7 @@ export const Payment = (props) => {
 
   };
   const PaymentFor5 = () => {
-    fetch("https://mi-backend.vercel.app/create-checkout-session-5", {
+    fetch("http://localhost:3001/create-checkout-session-5", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
