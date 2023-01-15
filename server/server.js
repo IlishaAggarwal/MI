@@ -32,6 +32,10 @@ const storeItems = new Map([
   [2, { priceInCents: 2000, name: "My 5 Stocks" }],
 ])
 
+app.get("/ping",(req,res)=>{
+  res.send("hello");
+})
+
 app.post("/create-checkout-session-15", async (req, res) => {
   try {
     const session = await stripe.checkout.sessions.create({
