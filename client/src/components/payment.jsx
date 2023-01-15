@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export const Payment = (props) => {
   const PaymentFor15 = () => {
-    fetch("http://localhost:3001/create-checkout-session-15", {
+    fetch("http://24.199.117.253:3001", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
