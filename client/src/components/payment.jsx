@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export const Payment = (props) => {
   const PaymentFor15 = () => {
-    fetch("http://24.199.117.253:3001", {
+    fetch("https://mi-backend.onrender.com/create-checkout-session-15", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +28,7 @@ export const Payment = (props) => {
 
   };
   const PaymentFor5 = () => {
-    fetch("http://localhost:3001/create-checkout-session-5", {
+    fetch("https://mi-backend.onrender.com/create-checkout-session-5", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

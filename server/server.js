@@ -6,13 +6,13 @@ const cors = require("cors")
 app.use(express.json())
 app.use(express.static('public'));
 
-// app.use(
-//   cors({
-//     origin: 'http://localhost:3000',
-//         // methods: 'GET,PUT,DELETE,POST,PATCH',
-//         // allowedHeaders: 'Content-Type'
-//   })
-// )
+app.use(
+  cors({
+    origin: 'www.elanest.xyz',
+        methods: 'GET,PUT,DELETE,POST,PATCH',
+        allowedHeaders: 'Content-Type'
+  })
+)
 
 // app.all("/*", function (req,res,next){
 //   res.header("Access-Control-Allow-Origin", "*");
@@ -33,11 +33,7 @@ const storeItems = new Map([
   [2, { priceInCents: 2000, name: "My 5 Stocks" }],
 ])
 
-app.get("/",(req,res)=>{
-  res.send("hello");
-})
-
-app.post("/", async (req, res) => {
+app.post("/create-checkout-session-15", async (req, res) => {
   try {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
