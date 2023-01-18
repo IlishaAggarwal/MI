@@ -7,11 +7,11 @@ app.use(express.json())
 app.use(express.static('public'));
 
 app.use(
-  cors({
-    origin: 'www.elanest.xyz',
-        methods: 'GET,PUT,DELETE,POST,PATCH',
-        allowedHeaders: 'Content-Type'
-  })
+  cors(
+    // origin: 'www.elanest.xyz',
+    //     methods: 'GET,PUT,DELETE,POST,PATCH',
+    //     allowedHeaders: 'Content-Type'
+  )
 )
 
 // app.all("/*", function (req,res,next){
